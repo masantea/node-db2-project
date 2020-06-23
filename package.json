@@ -4,15 +4,11 @@
     "description": "Node DB 2 Module Challenge",
     "main": "index.js",
     "scripts": {
-        "server": "nodemon index.js"
+        "server": "nodemon index.js",
+        "start": "node index.js"
     },
     "author": "Lambda School",
     "devDependencies": {
         "nodemon": "^2.0.2"
-    },
-    "dependencies": {
-        "expess": "0.0.1-security",
-        "express": "^4.17.1",
-        "sqlite3": "^4.2.0"
     }
 }
